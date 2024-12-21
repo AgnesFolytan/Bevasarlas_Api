@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TermekActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/nev"
+        android:id="@+id/nameEditText"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/egysegar"
+        android:id="@+id/egysegarEditText"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/mennyiseg"
+        android:id="@+id/mennyisegEditText"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/mertekegyseg"
+        android:id="@+id/mertekegysegEditText"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/bruttoAr"
+        android:id="@+id/bruttoArEditText"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/modositasButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Módosítás" />
+
+    <Button
+        android:id="@+id/torlesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Törlés" />
+
+    <Button
+        android:id="@+id/megseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mégse" />
+
+</LinearLayout>

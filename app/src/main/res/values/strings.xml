@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bevasarlas_oraimunka</string>
+    <string name="nev">név</string>
+    <string name="egysegar">egységár</string>
+    <string name="mennyiseg">mennyiség</string>
+    <string name="mertekegyseg">mértékegység</string>
+    <string name="bruttoAr">bruttó ár</string>
+    <string name="hozzaadas">Hozzáadás</string>
+    <string name="lista">Lista megtekintése</string>
+    <string name="back">vissza</string>
+</resources>
